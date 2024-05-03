@@ -19,7 +19,7 @@ def handle_errors(error: Exception) -> Dict:
         "status_code": 500,
         "body": {
             "errors": [{
-                "title": "Server Error",
+                "title": "Server Error", 
                 "detail": str(error)
             }]
         }
